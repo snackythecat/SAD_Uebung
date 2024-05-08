@@ -88,7 +88,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   if(this.passwordController.text == "password123"){
                     ScaffoldMessenger.of(context).showSnackBar(
                       SnackBar(
-                        content: Text('Login successful'),
+                        content: Text('Login successfully'),
                         duration: Duration(seconds: 2),
                       ),
                     );
